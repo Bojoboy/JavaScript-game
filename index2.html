@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title></title>
+  <style type="text/css">
+    table {
+      position: relative;
+      background: white;
+      z-index: -1;
+    }
+    td, th {
+      background: gray;
+      width: 70px;
+      height: 70px;
+    }
+    input+label { 
+      display: none; 
+    } 
+    .robot {
+      background: url(robot.jpg) no-repeat center center;
+    }
+    .robotHide {
+      background: gray;
+    }
+  </style>
+  
+ </head>
+ <body>
+  <table border="1">
+  <tr>
+    <th id="04">04</th>
+    <th id="14">14</th>
+    <th id="24">24</th>
+    <th id="34">34</th>
+    <th id="44">44</th>
+    <th id="54">54</th>  
+  </tr>
+  <tr>
+    <th id="03">03</th>
+    <th id="13">13</th>
+    <th id="23">23</th>
+    <th id="33">33</th>
+    <th id="43">43</th>
+    <th id="53">53</th>
+  </tr>
+  <tr>
+    <th id="02">02</th>
+    <th id="12">12</th>
+    <th id="22">22</th>
+    <th id="32">32</th>
+    <th id="42">42</th>
+    <th id="52">52</th>
+  </tr>
+  <tr>
+    <th id="01">01</th>
+    <th id="11">11</th>
+    <th id="21">21</th>
+    <th id="31">31</th>
+    <th id="41">41</th>
+    <th id="51">51</th>
+  </tr>
+  <tr>
+    <th id="00" class="robot">00</th>
+    <th id="10">10</th>
+    <th id="20">20</th>
+    <th id="30">30</th>
+    <th id="40">40</th>
+    <th id="50">50</th>
+  </tr>
+  </table>
+  <button class="up">up</button>
+  <button class="down">down</button>
+  <button class="left">left</button>
+  <button class="right">right</button>
+  <form class="s_form">
+    <input class="s_text nameinp sinp" type="text" name="x" placeholder="x">
+    <input class="s_text phoneinp sinp" type="text" name="y" placeholder="y">
+    <input class="s_submit" type="button" value="Teleport.">
+  </form>
+
+
+
+
+
+
+  <!-- <button class="up__btn" onclick="changeid()">Вверх</button> -->
+  
+
+
+
+  <!-- <button class="up__btn">Вверх</button>
+  <button class="up__btn">Вверх</button>
+
+
+
+
+
+
+  <input type="button" id="buttonTop" value="Вверх" />
+  <input type="button" id="buttonRight" value="Направо" />
+  <input type="button" id="buttonBottom" value="Вниз" />
+  <input type="button" id="buttonLeft" value="Налево" />  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="code.js"></script>
+ </body>
+</html>
